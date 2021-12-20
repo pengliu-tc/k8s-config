@@ -8,5 +8,6 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/stefanprodan/podinfo
+  url: https://github.com/pengliu-tc/k8s-config
+
 
