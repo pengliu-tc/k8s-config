@@ -2,12 +2,12 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: podinfo
+  name: nginx
   namespace: flux-system
 spec:
   interval: 30s
   ref:
-    branch: master
+    branch: main
   url: https://github.com/pengliu-tc/k8s-config
 
 
