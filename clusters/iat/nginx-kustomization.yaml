@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./app
+  path: ./app/mazumo
   prune: true
   sourceRef:
     kind: GitRepository
